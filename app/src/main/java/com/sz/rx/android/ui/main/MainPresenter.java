@@ -1,13 +1,8 @@
 package com.sz.rx.android.ui.main;
 
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 import com.sz.rx.android.data.DataManager;
-import com.sz.rx.android.data.model.TopicInfo;
 import com.sz.rx.android.ui.base.BasePresenter;
 
-import java.lang.reflect.Type;
-import java.util.ArrayList;
 import java.util.Map;
 
 import javax.inject.Inject;

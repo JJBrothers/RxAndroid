@@ -2,24 +2,16 @@ package com.sz.rx.android.data;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.sz.rx.android.data.model.TopicInfo;
 import com.sz.rx.android.data.remote.RestService;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
 
 import rx.Observable;
-import rx.android.schedulers.AndroidSchedulers;
-import rx.functions.Func1;
-import rx.schedulers.Schedulers;
 
 /**
  * Created by jhpark on 2016. 5. 24..
