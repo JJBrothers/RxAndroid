@@ -23,7 +23,7 @@ public class MainActivity extends BaseActivity implements MainMvpView{
     setContentView(R.layout.activity_main);
     ButterKnife.bind(this);
     mMainPresenter.attachView(this);
-    mTxtView.setText("MVP 시작");
+    mTxtView.setText("MVP");
 
     //sharePreference에서 token을 꺼네거나 util을 만들어관리하거나 ...
     String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzUsImlhdCI6MTQ4NzgyNDM0M30.CN0QFUTpJx3ORwuOfYcmQNbk6Xob36lxYH_48ZN1w9g";
