@@ -17,5 +17,3 @@ Retrolambda를 사용하여 함수형 언어에 가깝게 코드를 줄일수있
 
 통신모듈은 ReactiveX를 지원하는 Retrofit을 사용하며
 DI 매커니즘 dagger2를 사용하도록한다
-
-굉장히어렵다 ......
